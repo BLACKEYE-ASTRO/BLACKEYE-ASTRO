@@ -56,3 +56,13 @@
 </div>
 
 ###
+
+
+<br clear="both">
+
+<!-- snake animation -->
+<img src="https://raw.githubusercontent.com/BLACKEYE-ASTRO/BLACKEYE-ASTRO/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+
+
+###
+
