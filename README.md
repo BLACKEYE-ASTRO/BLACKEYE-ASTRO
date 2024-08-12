@@ -8,7 +8,7 @@
   <a href="https://www.linkedin.com/in/akash-shingare-723197181/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="linkedin logo"  />
   </a>
-  <a href="https://t.me/@akashshingare" target="_blank">
+  <a href="https://t.me/akashshingare" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=&color=2CA5E0&logoColor=white&labelColor=&style=for-the-badge" height="30" alt="telegram logo"  />
   </a>
   <a href="mailto:akashshingare2003@gmail.com" target="_blank">
