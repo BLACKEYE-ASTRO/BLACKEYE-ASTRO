@@ -13,16 +13,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate snake
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate snake (amber theme)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: BLACKEYE-ASTRO
           outputs: |
-            profile/github-snake.svg
-            profile/github-snake-dark.svg?palette=github-dark
+            profile/snake-live.svg?color_snake=#FBBF24&color_dots=#161616,#3B2A0C,#7C4A0A,#D97706,#F59E0B
 
-      - name: Commit generated files
+      - name: Commit generated file
         uses: EndBug/add-and-commit@v9
         with:
           message: "chore: update contribution snake"
-          add: "profile/*.svg"
+          add: "profile/snake-live.svg"
