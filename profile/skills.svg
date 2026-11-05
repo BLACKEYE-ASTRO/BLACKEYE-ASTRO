@@ -199,10 +199,4 @@
 
   <!-- Border -->
   <rect x="1" y="1" width="1198" height="420" rx="17" stroke="#60A5FA" stroke-opacity=".35" fill="none"/>
-
-  <!-- Corner details -->
-  <path d="M12 30V12H30M1170 12H1188V30M1188 392V410H1170M30 410H12V392"
-        stroke="#60A5FA" stroke-width="2" stroke-linecap="round" stroke-opacity=".8" fill="none">
-    <animate attributeName="stroke-opacity" values=".35;1;.35" dur="3s" repeatCount="indefinite"/>
-  </path>
 </svg>

@@ -71,7 +71,4 @@
 
   <rect x="1" y="1" width="498" height="228" rx="17" stroke="#60A5FA" stroke-opacity=".35" fill="none"/>
 
-  <path d="M12 28V12H28M472 12H488V28M488 202V218H472M28 218H12V202" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" stroke-opacity=".8" fill="none">
-    <animate attributeName="stroke-opacity" values=".35;1;.35" dur="3s" repeatCount="indefinite"/>
-  </path>
 </svg>

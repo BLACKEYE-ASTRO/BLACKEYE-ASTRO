@@ -133,12 +133,4 @@
 
   <rect x="1" y="1" width="1198" height="432" rx="17" stroke="#60A5FA" stroke-opacity=".35" fill="none"/>
 
-  <!-- Optional animated corner accents -->
-  <!--
-  <path d="M12 30V12H30M1170 12H1188V30M1188 404V422H1170M30 422H12V404"
-    stroke="#60A5FA" stroke-width="2" stroke-linecap="round"
-    stroke-opacity=".8" fill="none">
-    <animate attributeName="stroke-opacity" values=".35;1;.35" dur="3s" repeatCount="indefinite"/>
-  </path>
-  -->
 </svg>

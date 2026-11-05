@@ -1,37 +1,188 @@
+
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" fill="none" role="img" aria-label="Thanks for stopping by">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080808"/><stop offset="1" stop-color="#19130D"/></linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F59E0B"/><stop offset="1" stop-color="#D97706"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#080808"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#93C5FD"/>
+      <stop offset=".5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#60A5FA"/>
+    </linearGradient>
+
+    <linearGradient id="headline" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".55" stop-color="#DBEAFE"/>
+      <stop offset="1" stop-color="#60A5FA"/>
+    </linearGradient>
+
+    <linearGradient id="waveBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#2563EB" stop-opacity=".12"/>
+      <stop offset=".5" stop-color="#0EA5E9" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#60A5FA" stop-opacity=".12"/>
+    </linearGradient>
+
+    <linearGradient id="waveAmber" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#F59E0B" stop-opacity=".4"/>
+      <stop offset=".5" stop-color="#D97706" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#F59E0B" stop-opacity=".35"/>
+    </linearGradient>
+
+    <linearGradient id="warmLine" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#D97706" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#D97706" stop-opacity="0"/>
+    </linearGradient>
+
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
       <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity=".055" fill="none"/>
-      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="32 32" dur="6s" repeatCount="indefinite"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="32 32" dur="8s" repeatCount="indefinite"/>
     </pattern>
-    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#D97706" stop-opacity=".55"/><stop offset="1" stop-color="#F59E0B" stop-opacity=".55"/></linearGradient>
-    <linearGradient id="w2" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#F59E0B" stop-opacity=".25"/><stop offset="1" stop-color="#D97706" stop-opacity=".25"/></linearGradient>
-    <clipPath id="card"><rect width="1200" height="210" rx="18"/></clipPath>
+
+    <clipPath id="card">
+      <rect width="1200" height="210" rx="18"/>
+    </clipPath>
+
+    <filter id="blueGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
+
   <g clip-path="url(#card)">
-    <rect width="1200" height="210" rx="18" fill="url(#bg)"/>
-    <rect width="1200" height="210" rx="18" fill="url(#grid)"/>
-    <text x="325" y="127" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="12" fill="#F59E0B" opacity="0">[ ]<animate attributeName="opacity" values="0;.55;0" dur="6.9s" begin="-0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 12;0 -44" dur="6.9s" begin="-0.8s" repeatCount="indefinite"/></text>
-    <text x="498" y="184" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14" fill="#F59E0B" opacity="0">{ }<animate attributeName="opacity" values="0;.55;0" dur="5.9s" begin="-4.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 12;0 -44" dur="5.9s" begin="-4.8s" repeatCount="indefinite"/></text>
-    <text x="891" y="178" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="16" fill="#F59E0B" opacity="0">;<animate attributeName="opacity" values="0;.55;0" dur="5.9s" begin="-8.3s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 12;0 -44" dur="5.9s" begin="-8.3s" repeatCount="indefinite"/></text>
-    <text x="919" y="176" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="16" fill="#F59E0B" opacity="0">1<animate attributeName="opacity" values="0;.55;0" dur="5.7s" begin="-2.6s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 12;0 -44" dur="5.7s" begin="-2.6s" repeatCount="indefinite"/></text>
-    <text x="1079" y="179" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="16" fill="#F59E0B" opacity="0">=&gt;<animate attributeName="opacity" values="0;.55;0" dur="5.3s" begin="-5.5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 12;0 -44" dur="5.3s" begin="-5.5s" repeatCount="indefinite"/></text>
-    <text x="483" y="137" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="16" fill="#F59E0B" opacity="0">1<animate attributeName="opacity" values="0;.55;0" dur="6.9s" begin="-0.8s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 12;0 -44" dur="6.9s" begin="-0.8s" repeatCount="indefinite"/></text>
-    <text x="954" y="121" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="16" fill="#F59E0B" opacity="0">;<animate attributeName="opacity" values="0;.55;0" dur="7.3s" begin="-7.9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 12;0 -44" dur="7.3s" begin="-7.9s" repeatCount="indefinite"/></text>
-    <text x="283" y="150" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14" fill="#F59E0B" opacity="0">;<animate attributeName="opacity" values="0;.55;0" dur="6.7s" begin="-1.5s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 12;0 -44" dur="6.7s" begin="-1.5s" repeatCount="indefinite"/></text>
-    <text x="350" y="176" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14" fill="#F59E0B" opacity="0">&lt;/&gt;<animate attributeName="opacity" values="0;.55;0" dur="5.2s" begin="-5.6s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 12;0 -44" dur="5.2s" begin="-5.6s" repeatCount="indefinite"/></text>
-    <text x="620" y="165" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="12" fill="#F59E0B" opacity="0">=&gt;<animate attributeName="opacity" values="0;.55;0" dur="5.6s" begin="-6.1s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 12;0 -44" dur="5.6s" begin="-6.1s" repeatCount="indefinite"/></text>
-    <text x="509" y="134" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="16" fill="#F59E0B" opacity="0">&amp;&amp;<animate attributeName="opacity" values="0;.55;0" dur="6.1s" begin="-3.2s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 12;0 -44" dur="6.1s" begin="-3.2s" repeatCount="indefinite"/></text>
-    <text x="692" y="164" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="12" fill="#F59E0B" opacity="0">1<animate attributeName="opacity" values="0;.55;0" dur="8.6s" begin="-0.9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 12;0 -44" dur="8.6s" begin="-0.9s" repeatCount="indefinite"/></text>
-    <text x="816" y="139" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14" fill="#F59E0B" opacity="0">fn<animate attributeName="opacity" values="0;.55;0" dur="7.5s" begin="-2.1s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 12;0 -44" dur="7.5s" begin="-2.1s" repeatCount="indefinite"/></text>
-    <text x="1052" y="140" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14" fill="#F59E0B" opacity="0">{ }<animate attributeName="opacity" values="0;.55;0" dur="5.2s" begin="-6.3s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 12;0 -44" dur="5.2s" begin="-6.3s" repeatCount="indefinite"/></text>
-    <path d="M0,172 Q100,160 200,172 T400,172 T600,172 T800,172 T1000,172 T1200,172 T1400,172 T1600,172 T1800,172 T2000,172 T2200,172 T2400,172 L2400,210 L0,210 Z" fill="url(#w2)"><animateTransform attributeName="transform" type="translate" from="-400 0" to="0 0" dur="9s" repeatCount="indefinite"/></path>
-    <path d="M0,158 Q75,142 150,158 T300,158 T450,158 T600,158 T750,158 T900,158 T1050,158 T1200,158 T1350,158 T1500,158 T1650,158 T1800,158 T1950,158 T2100,158 L2100,210 L0,210 Z" fill="url(#w1)"><animateTransform attributeName="transform" type="translate" from="0 0" to="-300 0" dur="6s" repeatCount="indefinite"/></path>
-    <text x="600.0" y="78" text-anchor="middle" fill="#FFFFFF" font-family="Arial, 'Helvetica Neue', sans-serif" font-size="30" font-weight="700">Thanks for stopping by</text>
-    <text x="600.0" y="110" text-anchor="middle" fill="#F59E0B" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="15" letter-spacing="3">DESIGN  ·  DEVELOP  ·  BUILD  ·  SHIP</text>
+    <!-- Background -->
+    <rect width="1200" height="210" fill="url(#bg)"/>
+    <rect width="1200" height="210" fill="url(#grid)"/>
+
+    <!-- Ambient light -->
+    <ellipse cx="600" cy="92" rx="400" ry="100" fill="#2563EB" opacity=".045"/>
+    <ellipse cx="600" cy="190" rx="500" ry="75" fill="#D97706" opacity=".055"/>
+
+    <!-- Floating code symbols -->
+    <g font-family="'Fira Code', 'Cascadia Code', Consolas, monospace" font-size="15" fill="#60A5FA">
+      <text x="92" y="93" opacity="0">{ }
+        <animate attributeName="opacity" values="0;.65;0" dur="6s" begin="-1s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0 12;0 -24" dur="6s" begin="-1s" repeatCount="indefinite"/>
+      </text>
+
+      <text x="1080" y="80" opacity="0">fn()
+        <animate attributeName="opacity" values="0;.6;0" dur="7s" begin="-3s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0 12;0 -24" dur="7s" begin="-3s" repeatCount="indefinite"/>
+      </text>
+
+      <text x="185" y="151" opacity="0">&lt;/&gt;
+        <animate attributeName="opacity" values="0;.7;0" dur="5.5s" begin="-2s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0 10;0 -20" dur="5.5s" begin="-2s" repeatCount="indefinite"/>
+      </text>
+
+      <text x="1000" y="147" opacity="0">=&gt;
+        <animate attributeName="opacity" values="0;.7;0" dur="6.5s" begin="-4s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0 10;0 -20" dur="6.5s" begin="-4s" repeatCount="indefinite"/>
+      </text>
+
+      <text x="330" y="70" opacity="0">01
+        <animate attributeName="opacity" values="0;.4;0" dur="7s" begin="-2s" repeatCount="indefinite"/>
+      </text>
+
+      <text x="870" y="178" opacity="0">{ }
+        <animate attributeName="opacity" values="0;.5;0" dur="6s" begin="-4s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <!-- Decorative blue stars -->
+    <g fill="#60A5FA" filter="url(#blueGlow)">
+      <path d="M105 65V79M98 72H112" stroke="#60A5FA" stroke-width="1.5"/>
+      <path d="M1090 105V119M1083 112H1097" stroke="#60A5FA" stroke-width="1.5"/>
+      <circle cx="255" cy="112" r="1.5"/>
+      <circle cx="950" cy="66" r="1.5"/>
+      <circle cx="770" cy="178" r="1.5"/>
+    </g>
+
+    <!-- Floating amber symbols -->
+    <g fill="#F59E0B" font-family="'Fira Code', 'Cascadia Code', Consolas, monospace">
+      <text x="250" y="78" font-size="19" opacity=".8">{ }</text>
+      <text x="920" y="158" font-size="13" opacity=".75">;</text>
+      <text x="1045" y="137" font-size="15" opacity=".8">01</text>
+    </g>
+
+    <!-- Top coding icon
+    <g filter="url(#blueGlow)">
+      <path d="M575 26L560 40L575 54M625 26L640 40L625 54M610 20L590 60"
+        stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g> -->
+
+    <!-- Heading -->
+    <text x="600" y="94" text-anchor="middle"
+      font-family="Arial, 'Helvetica Neue', sans-serif"
+      font-size="39" font-weight="800" letter-spacing="-1.2"
+      fill="url(#headline)" filter="url(#blueGlow)">
+      Thanks for stopping by
+    </text>
+
+    <!-- Animated headline underline -->
+    <path d="M355 108 Q600 91 845 108"
+      stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round"
+      filter="url(#blueGlow)" stroke-dasharray="500" stroke-dashoffset="500">
+      <animate attributeName="stroke-dashoffset" from="500" to="0" dur="2s" fill="freeze"/>
+    </path>
+
+    <!-- Tagline -->
+    <text x="600" y="137" text-anchor="middle"
+      font-family="'Fira Code', 'Cascadia Code', Consolas, monospace"
+      font-size="13" letter-spacing="3.5" fill="#F59E0B">
+      DESIGN  ·  DEVELOP  ·  BUILD  ·  SHIP
+    </text>
+
+    <!-- Tagline glow line -->
+    <rect x="410" y="147" width="380" height="1.5" rx="1" fill="url(#warmLine)" filter="url(#softGlow)">
+      <animate attributeName="opacity" values=".4;1;.4" dur="3s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Layered bottom waves -->
+    <path d="M0 170 Q150 140 300 170 T600 170 T900 170 T1200 170 V210 H0 Z"
+      fill="url(#waveBlue)">
+      <animateTransform attributeName="transform" type="translate" values="-80 0;80 0;-80 0" dur="12s" repeatCount="indefinite"/>
+    </path>
+
+    <path d="M0 178 Q150 145 300 178 T600 178 T900 178 T1200 178 V210 H0 Z"
+      fill="url(#waveAmber)">
+      <animateTransform attributeName="transform" type="translate" values="60 0;-60 0;60 0" dur="10s" repeatCount="indefinite"/>
+    </path>
+
+    <path d="M0 177 Q150 150 300 177 T600 177 T900 177 T1200 177"
+      stroke="#60A5FA" stroke-opacity=".7" stroke-width="1.4" fill="none">
+      <animate attributeName="stroke-opacity" values=".25;.85;.25" dur="4s" repeatCount="indefinite"/>
+    </path>
+
+    <path d="M0 188 Q150 158 300 188 T600 188 T900 188 T1200 188"
+      stroke="#F59E0B" stroke-opacity=".65" stroke-width="1.2" fill="none">
+      <animate attributeName="stroke-opacity" values=".2;.75;.2" dur="3.5s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Bottom ambient dots -->
+    <g fill="#60A5FA">
+      <circle cx="160" cy="187" r="1.5" opacity=".8"/>
+      <circle cx="375" cy="178" r="1" opacity=".7"/>
+      <circle cx="820" cy="192" r="1.5" opacity=".8"/>
+      <circle cx="1030" cy="181" r="1" opacity=".7"/>
+    </g>
   </g>
-  <rect x="1" y="1" width="1198" height="208" rx="17" stroke="#D97706" stroke-opacity=".35" fill="none"/>
-  <path d="M12 30V12H30M1170 12H1188V30M1188 180V198H1170M30 198H12V180" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-opacity=".8" fill="none"><animate attributeName="stroke-opacity" values=".35;1;.35" dur="3s" repeatCount="indefinite"/></path>
+
+  <!-- Outer frame -->
+  <rect x="1" y="1" width="1198" height="208" rx="17"
+    stroke="#60A5FA" stroke-opacity=".4" fill="none"/>
+
 </svg>
