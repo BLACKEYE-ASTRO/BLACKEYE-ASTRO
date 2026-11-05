@@ -35,20 +35,20 @@
 
 <br/>
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=BLACKEYE-ASTRO&show_icons=true&include_all_commits=true&count_private=true&hide_border=false&border_radius=12&bg_color=0D0D0D&border_color=D97706&title_color=F59E0B&icon_color=D97706&text_color=D1D1D1&locale=en" alt="GitHub stats"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs?username=BLACKEYE-ASTRO&layout=compact&card_width=320&langs_count=5&hide_border=false&border_radius=12&bg_color=0D0D0D&border_color=D97706&title_color=F59E0B&text_color=D1D1D1&locale=en" alt="Top languages"/>
+<img src="./profile/stats.svg" alt="GitHub stats" width="58%"/>
+<img src="./profile/top-langs.svg" alt="Top languages" width="39%"/>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=BLACKEYE-ASTRO&mode=daily&locale=en&hide_border=false&border_radius=12&background=0D0D0D&border=D97706&ring=F59E0B&fire=F59E0B&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=F59E0B&sideLabels=D1D1D1&dates=888888&stroke=33260F" alt="GitHub streak"/>
+<img src="./profile/streak.svg" alt="GitHub streak" width="98%"/>
 
 <br/><br/>
 
 <img src="./profile/snake-live.svg" alt="Snake eating a contribution grid" width="100%"/>
 
 <!--
-Prefer your real contribution graph? Swap the line above for:
-<img src="https://raw.githubusercontent.com/BLACKEYE-ASTRO/BLACKEYE-ASTRO/output/github-contribution-grid-snake.svg" alt="Contribution snake animation" width="100%"/>
+Prefer your real contribution graph? Run the "Generate contribution snake" workflow once, then swap the line above for:
+<img src="./profile/snake-live.svg" alt="Contribution snake animation" width="100%"/>
 -->
 
 <br/><br/>

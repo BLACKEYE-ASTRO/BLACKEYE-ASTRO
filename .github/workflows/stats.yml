@@ -1,0 +1,30 @@
+name: Generate stats cards
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate stats, top-langs and streak cards
+        env:
+          # Optional: add a repo secret named STATS_TOKEN (classic PAT with read:user and repo)
+          # to include private contributions. Falls back to the built-in token.
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/generate_cards.py --user BLACKEYE-ASTRO --out profile
+
+      - name: Commit generated cards
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "chore: update stats cards"
+          add: "profile/stats.svg profile/top-langs.svg profile/streak.svg"
