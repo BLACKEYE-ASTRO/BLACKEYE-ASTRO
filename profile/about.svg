@@ -38,5 +38,5 @@
     <text x="1084" y="356" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14" fill="#F59E0B" opacity="0">=&gt;<animate attributeName="opacity" values="0;.55;0" dur="8.2s" begin="-3.2s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 12;0 -44" dur="8.2s" begin="-3.2s" repeatCount="indefinite"/></text>
   </g>
   <rect x="1" y="1" width="1198" height="432" rx="17" stroke="#D97706" stroke-opacity=".35" fill="none"/>
-  <path d="M12 30V12H30M1170 12H1188V30M1188 404V422H1170M30 422H12V404" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-opacity=".8" fill="none"><animate attributeName="stroke-opacity" values=".35;1;.35" dur="3s" repeatCount="indefinite"/></path>
+  <!-- <path d="M12 30V12H30M1170 12H1188V30M1188 404V422H1170M30 422H12V404" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-opacity=".8" fill="none"><animate attributeName="stroke-opacity" values=".35;1;.35" dur="3s" repeatCount="indefinite"/></path> -->
 </svg>
