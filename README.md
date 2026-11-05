@@ -11,25 +11,15 @@
 
 <br/><br/>
 
-<img src="./profile/divider.svg" alt="" width="100%"/>
-
-<br/>
-
 <img src="./profile/about.svg" alt="About Akash" width="100%"/>
 
 <br/><br/>
 
-<img src="./profile/divider.svg" alt="" width="100%"/>
-
-<br/>
 
 <img src="./profile/skills.svg" alt="Languages and tools" width="100%"/>
 
 <br/><br/>
 
-<img src="./profile/divider.svg" alt="" width="100%"/>
-
-<br/>
 
 <img src="./profile/title-stats.svg" alt="My stats" width="100%"/>
 
