@@ -21,8 +21,16 @@
 
 <br/><br/>
 
-<img src="./profile/stats.svg" alt="GitHub stats" width="58%"/>
-<img src="./profile/top-langs.svg" alt="Top languages" width="39%"/>
+<table>
+  <tr>
+    <td width="60%" align="center">
+      <img src="./profile/stats.svg" alt="GitHub stats" width="100%"/>
+    </td>
+    <td width="40%" align="center">
+      <img src="./profile/top-langs.svg" alt="Top languages" width="100%"/>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
