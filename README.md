@@ -23,10 +23,10 @@
 
 <table>
   <tr>
-    <td width="60%" align="center">
+    <td width="60%" align="center" style="border: none;">
       <img src="./profile/stats.svg" alt="GitHub stats" width="100%"/>
     </td>
-    <td width="40%" align="center">
+    <td width="40%" align="center" style="border: none;">
       <img src="./profile/top-langs.svg" alt="Top languages" width="100%"/>
     </td>
   </tr>
