@@ -105,7 +105,7 @@ Real-time chat application.
 ## Contribution Activity
 
 <div align="center">
-<img src="./profile/github-snake-dark.svg" width="100%" alt="Contribution Snake"/>
+<img src="./profile/github-snake.svg" width="100%" alt="Contribution Snake"/>
 </div>
 
 ---
