@@ -34,7 +34,7 @@
     <!-- Animated language progress bars -->
     <g clip-path="url(#bar)">
       <!-- TypeScript -->
-      <rect x="30" y="68" width="88.2" height="10" fill="#f59e0b">
+      <rect x="30" y="68" width="88.2" height="10" fill="#3178C6">
         <animate attributeName="width" from="0" to="88.2" dur="0.9s" begin="0s" fill="freeze"/>
       </rect>
 

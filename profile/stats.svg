@@ -1,37 +1,77 @@
+
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="230" viewBox="0 0 500 230" fill="none" role="img" aria-label="GitHub stats">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080808"/><stop offset="1" stop-color="#19130D"/></linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F59E0B"/><stop offset="1" stop-color="#D97706"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#080808"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#93C5FD"/>
+      <stop offset="1" stop-color="#60A5FA"/>
+    </linearGradient>
+
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
       <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity=".055" fill="none"/>
       <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="32 32" dur="6s" repeatCount="indefinite"/>
     </pattern>
-    <clipPath id="card"><rect width="500" height="230" rx="18"/></clipPath>
+
+    <clipPath id="card">
+      <rect width="500" height="230" rx="18"/>
+    </clipPath>
   </defs>
+
   <g clip-path="url(#card)">
     <rect width="500" height="230" rx="18" fill="url(#bg)"/>
     <rect width="500" height="230" rx="18" fill="url(#grid)"/>
-    <text x="40" y="52" fill="#F59E0B" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="16" font-weight="700">&lt; GITHUB STATS /&gt;</text>
-    <text x="460" y="52" text-anchor="end" fill="#888888" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="12">@BLACKEYE-ASTRO</text>
-    <rect x="40" y="81" width="7" height="7" fill="#F59E0B" transform="rotate(45 43.5 84.5)"><animate attributeName="opacity" values=".4;1;.4" dur="3s" begin="-0.0s" repeatCount="indefinite"/></rect>
-    <text x="60" y="90" fill="#D1D1D1" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14">Total Stars</text>
+
+    <text x="40" y="52" fill="#60A5FA" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="16" font-weight="700">&lt; GITHUB STATS /&gt;</text>
+
+    <text x="460" y="52" text-anchor="end" fill="#9CA3AF" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="12">@BLACKEYE-ASTRO</text>
+
+    <rect x="40" y="81" width="7" height="7" fill="#60A5FA" transform="rotate(45 43.5 84.5)">
+      <animate attributeName="opacity" values=".4;1;.4" dur="3s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="60" y="90" fill="#D1D5DB" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14">Total Stars</text>
     <text x="300" y="90" text-anchor="end" fill="#FFFFFF" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="15" font-weight="700">0</text>
-    <rect x="40" y="109" width="7" height="7" fill="#F59E0B" transform="rotate(45 43.5 112.5)"><animate attributeName="opacity" values=".4;1;.4" dur="3s" begin="-0.5s" repeatCount="indefinite"/></rect>
-    <text x="60" y="118" fill="#D1D1D1" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14">Commits (all time)</text>
+
+    <rect x="40" y="109" width="7" height="7" fill="#60A5FA" transform="rotate(45 43.5 112.5)">
+      <animate attributeName="opacity" values=".4;1;.4" dur="3s" begin="-.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="60" y="118" fill="#D1D5DB" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14">Commits (all time)</text>
     <text x="300" y="118" text-anchor="end" fill="#FFFFFF" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="15" font-weight="700">203</text>
-    <rect x="40" y="137" width="7" height="7" fill="#F59E0B" transform="rotate(45 43.5 140.5)"><animate attributeName="opacity" values=".4;1;.4" dur="3s" begin="-1.0s" repeatCount="indefinite"/></rect>
-    <text x="60" y="146" fill="#D1D1D1" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14">Pull Requests</text>
+
+    <rect x="40" y="137" width="7" height="7" fill="#60A5FA" transform="rotate(45 43.5 140.5)">
+      <animate attributeName="opacity" values=".4;1;.4" dur="3s" begin="-1s" repeatCount="indefinite"/>
+    </rect>
+    <text x="60" y="146" fill="#D1D5DB" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14">Pull Requests</text>
     <text x="300" y="146" text-anchor="end" fill="#FFFFFF" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="15" font-weight="700">0</text>
-    <rect x="40" y="165" width="7" height="7" fill="#F59E0B" transform="rotate(45 43.5 168.5)"><animate attributeName="opacity" values=".4;1;.4" dur="3s" begin="-1.5s" repeatCount="indefinite"/></rect>
-    <text x="60" y="174" fill="#D1D1D1" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14">Issues</text>
+
+    <rect x="40" y="165" width="7" height="7" fill="#60A5FA" transform="rotate(45 43.5 168.5)">
+      <animate attributeName="opacity" values=".4;1;.4" dur="3s" begin="-1.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="60" y="174" fill="#D1D5DB" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14">Issues</text>
     <text x="300" y="174" text-anchor="end" fill="#FFFFFF" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="15" font-weight="700">0</text>
-    <rect x="40" y="193" width="7" height="7" fill="#F59E0B" transform="rotate(45 43.5 196.5)"><animate attributeName="opacity" values=".4;1;.4" dur="3s" begin="-2.0s" repeatCount="indefinite"/></rect>
-    <text x="60" y="202" fill="#D1D1D1" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14">Contributed to</text>
+
+    <rect x="40" y="193" width="7" height="7" fill="#60A5FA" transform="rotate(45 43.5 196.5)">
+      <animate attributeName="opacity" values=".4;1;.4" dur="3s" begin="-2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="60" y="202" fill="#D1D5DB" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14">Contributed to</text>
     <text x="300" y="202" text-anchor="end" fill="#FFFFFF" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="15" font-weight="700">0</text>
-    <circle cx="405" cy="140" r="50" stroke="#2A2014" stroke-width="8" fill="none"/><circle cx="405" cy="140" r="50" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" fill="none" stroke-dasharray="314.2" stroke-dashoffset="302.2" transform="rotate(-90 405 140)"><animate attributeName="stroke-dashoffset" from="314.2" to="302.2" dur="1.4s" fill="freeze"/></circle>
+
+    <circle cx="405" cy="140" r="50" stroke="#252B38" stroke-width="8" fill="none"/>
+
+    <circle cx="405" cy="140" r="50" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" fill="none" stroke-dasharray="314.2" stroke-dashoffset="302.2" transform="rotate(-90 405 140)">
+      <animate attributeName="stroke-dashoffset" from="314.2" to="302.2" dur="1.4s" fill="freeze"/>
+    </circle>
+
     <text x="405" y="147" text-anchor="middle" fill="#FFFFFF" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="24" font-weight="700">38</text>
-    <text x="405" y="167" text-anchor="middle" fill="#888888" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="11">past year</text>
+    <text x="405" y="167" text-anchor="middle" fill="#9CA3AF" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="11">past year</text>
   </g>
-  <rect x="1" y="1" width="498" height="228" rx="17" stroke="#D97706" stroke-opacity=".35" fill="none"/>
-  <path d="M12 28V12H28M472 12H488V28M488 202V218H472M28 218H12V202" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-opacity=".8" fill="none"><animate attributeName="stroke-opacity" values=".35;1;.35" dur="3s" repeatCount="indefinite"/></path>
+
+  <rect x="1" y="1" width="498" height="228" rx="17" stroke="#60A5FA" stroke-opacity=".35" fill="none"/>
+
+  <path d="M12 28V12H28M472 12H488V28M488 202V218H472M28 218H12V202" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" stroke-opacity=".8" fill="none">
+    <animate attributeName="stroke-opacity" values=".35;1;.35" dur="3s" repeatCount="indefinite"/>
+  </path>
 </svg>
