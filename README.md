@@ -1,131 +1,58 @@
-
 <div align="center">
 
-<img src="./profile/header.svg" width="100%" alt="BlackEye Developer Banner"/>
+<img src="./profile/header.svg" alt="Akash Shingare, Full Stack Developer and Product Builder" width="100%"/>
 
-### Full Stack Developer | UI/UX Enthusiast | Product Builder
+<br/>
 
-Building modern web applications and meaningful digital experiences.
+<a href="https://www.linkedin.com/in/akash-shingare-62b547441"><img src="./profile/btn-linkedin.svg" alt="LinkedIn" height="48"/></a>&nbsp;
+<a href="https://t.me/akashshingare"><img src="./profile/btn-telegram.svg" alt="Telegram" height="48"/></a>&nbsp;
+<a href="mailto:akashshingare2003@gmail.com"><img src="./profile/btn-gmail.svg" alt="Gmail" height="48"/></a>&nbsp;
+<a href="https://www.instagram.com/__.akxsh_18/"><img src="./profile/btn-instagram.svg" alt="Instagram" height="48"/></a>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-BlackEye-D97706?style=for-the-badge&logo=vercel&logoColor=white)](YOUR_PORTFOLIO_URL)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](YOUR_LINKEDIN_URL)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/BLACKEYE-ASTRO)
+<br/><br/>
 
-</div>
+<img src="./profile/divider.svg" alt="" width="100%"/>
 
----
+<br/>
 
-## `whoami`
+<img src="./profile/about.svg" alt="About Akash" width="100%"/>
 
-```bash
-$ whoami
-Akash Shingare
+<br/><br/>
 
-$ role
-Full Stack Developer
+<img src="./profile/divider.svg" alt="" width="100%"/>
 
-$ current_focus
-Building scalable web applications
-Creating better user experiences
-Learning system design and backend architecture
+<br/>
 
-$ philosophy
-Think. Design. Develop. Ship.
-```
+<img src="./profile/skills.svg" alt="Languages and tools" width="100%"/>
 
-I am a developer passionate about building modern digital products,
-from intuitive user interfaces to scalable backend systems.
+<br/><br/>
 
-I enjoy turning ideas into functional products,
-solving real-world problems and continuously improving my engineering skills.
+<img src="./profile/divider.svg" alt="" width="100%"/>
 
----
+<br/>
 
-## What I Build
+<img src="./profile/title-stats.svg" alt="My stats" width="100%"/>
 
-| Area | Focus |
-|---|---|
-| Web Development | React, Next.js, TypeScript |
-| Backend Development | Node.js, Express.js, REST APIs |
-| Database | MongoDB, PostgreSQL, Prisma |
-| UI/UX Design | Figma, Responsive Design |
-| Tools | Git, GitHub, Postman, VS Code |
+<br/>
 
----
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=BLACKEYE-ASTRO&show_icons=true&include_all_commits=true&count_private=true&hide_border=false&border_radius=12&bg_color=0D0D0D&border_color=D97706&title_color=F59E0B&icon_color=D97706&text_color=D1D1D1&locale=en" alt="GitHub stats"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs?username=BLACKEYE-ASTRO&layout=compact&card_width=320&langs_count=5&hide_border=false&border_radius=12&bg_color=0D0D0D&border_color=D97706&title_color=F59E0B&text_color=D1D1D1&locale=en" alt="Top languages"/>
 
-## Tech Stack
+<br/>
 
-**Frontend**
+<img src="https://streak-stats.demolab.com?user=BLACKEYE-ASTRO&mode=daily&locale=en&hide_border=false&border_radius=12&background=0D0D0D&border=D97706&ring=F59E0B&fire=F59E0B&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=F59E0B&sideLabels=D1D1D1&dates=888888&stroke=33260F" alt="GitHub streak"/>
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,redux" />
+<br/><br/>
 
-**Backend & Database**
+<img src="./profile/github-snake.svg" alt="Snake eating a contribution grid" width="100%"/>
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres,prisma" />
+<!--
+Prefer your real contribution graph? Swap the line above for:
+<img src="https://raw.githubusercontent.com/BLACKEYE-ASTRO/BLACKEYE-ASTRO/output/github-contribution-grid-snake.svg" alt="Contribution snake animation" width="100%"/>
+-->
 
-**Design & Tools**
+<br/><br/>
 
-<img src="https://skillicons.dev/icons?i=figma,git,github,vscode,postman,vercel" />
-
----
-
-## Featured Projects
-
-### Notoir
-Modern note-taking application inspired by Notion.
-
-**Stack:** Next.js · Prisma · PostgreSQL · Convex · Tailwind CSS
-
-[View Project](https://notoir.vercel.app/)
-
-### Wealthly
-Personal finance management application.
-
-**Stack:** Next.js · Prisma · PostgreSQL · Clerk
-
-### Sticky Chats
-Real-time chat application.
-
-**Stack:** React · Node.js · Express · Socket.IO · MongoDB
-
----
-
-## GitHub Analytics
-
-<div align="center">
-
-<img width="49%" src="https://ghstats.dev/api/card?username=BLACKEYE-ASTRO&theme=dark" />
-
-<img width="49%" src="https://ghstats.dev/api/langs?username=BLACKEYE-ASTRO&theme=dark" />
-
-</div>
-
----
-
-## Contribution Activity
-
-<div align="center">
-<img src="./profile/github-snake.svg" width="100%" alt="Contribution Snake"/>
-</div>
-
----
-
-## Developer Mode
-
-<div align="center">
-<img src="./profile/developer-mode.svg" width="100%" alt="Developer Mode"/>
-</div>
-
----
-
-<div align="center">
-
-### Let's build something meaningful.
-
-Open to interesting projects, collaborations and opportunities.
-
-[Portfolio](YOUR_PORTFOLIO_URL) · [LinkedIn](YOUR_LINKEDIN_URL) · [GitHub](https://github.com/BLACKEYE-ASTRO)
-
-<img src="./profile/footer.svg" width="100%" alt="BlackEye Footer"/>
+<img src="./profile/footer.svg" alt="Thanks for stopping by" width="100%"/>
 
 </div>

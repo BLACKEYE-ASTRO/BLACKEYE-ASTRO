@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="70" viewBox="0 0 1200 70" fill="none" role="img" aria-label="My stats">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080808"/><stop offset="1" stop-color="#19130D"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F59E0B"/><stop offset="1" stop-color="#D97706"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity=".055" fill="none"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="32 32" dur="6s" repeatCount="indefinite"/>
+    </pattern>
+    
+    <clipPath id="card"><rect width="1200" height="70" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="70" rx="18" fill="url(#bg)"/>
+    <rect width="1200" height="70" rx="18" fill="url(#grid)"/>
+    <rect x="40" y="18" width="4" height="34" rx="2" fill="url(#accent)"><animate attributeName="height" values="0;34;34" keyTimes="0;.15;1" dur="6s" repeatCount="indefinite"/></rect>
+    <text x="62" y="43" fill="#F59E0B" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="24" font-weight="700">&lt; MY STATS /&gt;</text>
+    <line x1="330" y1="35" x2="1150" y2="35" stroke="#D97706" stroke-opacity=".4" stroke-dasharray="4 8"/>
+    <circle cx="330" cy="35" r="4" fill="#FBBF24"><animateMotion dur="4s" repeatCount="indefinite" path="M0,0 L820,0"/></circle>
+  </g>
+  <rect x="1" y="1" width="1198" height="68" rx="17" stroke="#D97706" stroke-opacity=".35" fill="none"/>
+  
+</svg>

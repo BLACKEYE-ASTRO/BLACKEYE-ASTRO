@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="44" viewBox="0 0 1200 44" fill="none" role="presentation">
+  <defs>
+      <linearGradient id="bgd" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080808"/><stop offset="1" stop-color="#19130D"/></linearGradient>
+      <linearGradient id="l" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#F59E0B" stop-opacity="0"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+      <linearGradient id="r" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#F59E0B"/><stop offset="1" stop-color="#F59E0B" stop-opacity="0"/></linearGradient>
+    </defs>
+    <rect x="1" y="1" width="1198" height="42" rx="12" fill="url(#bgd)" stroke="#D97706" stroke-opacity=".3"/>
+    <line x1="60" y1="22" x2="560" y2="22" stroke="url(#l)" stroke-width="2" stroke-linecap="round"/>
+    <line x1="640" y1="22" x2="1140" y2="22" stroke="url(#r)" stroke-width="2" stroke-linecap="round"/>
+    <text x="566" y="28" text-anchor="end" fill="#F59E0B" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="20">&lt;</text>
+    <text x="634" y="28" fill="#F59E0B" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="20">/&gt;</text>
+    <rect x="-7" y="-7" width="14" height="14" fill="#F59E0B" transform="translate(600 22) rotate(45)"/>
+    <circle cx="600" cy="22" r="4" fill="#080808"/>
+    <circle cx="600" cy="22" r="10" stroke="#FBBF24" fill="none"><animate attributeName="r" values="8;20" dur="2.4s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".9;0" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle r="3.5" fill="#FDE68A" opacity="0"><animateMotion dur="3.5s" repeatCount="indefinite" path="M60,22 L560,22"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle r="3.5" fill="#FDE68A" opacity="0"><animateMotion dur="3.5s" repeatCount="indefinite" path="M1140,22 L640,22"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.85;1" dur="3.5s" repeatCount="indefinite"/></circle>
+</svg>
