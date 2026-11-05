@@ -3,7 +3,7 @@
 <img src="./profile/header.svg" alt="Akash Shingare, Full Stack Developer and Product Builder" width="100%"/>
 
 <br/>
-
+<br/>
 <a href="https://www.linkedin.com/in/akash-shingare-62b547441"><img src="./profile/btn-linkedin.svg" alt="LinkedIn" height="48"/></a>&nbsp;
 <a href="https://t.me/akashshingare"><img src="./profile/btn-telegram.svg" alt="Telegram" height="48"/></a>&nbsp;
 <a href="mailto:akashshingare2003@gmail.com"><img src="./profile/btn-gmail.svg" alt="Gmail" height="48"/></a>&nbsp;
