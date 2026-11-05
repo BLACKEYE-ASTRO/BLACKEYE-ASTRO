@@ -1,3 +1,4 @@
+
 name: Generate contribution snake
 
 on:
@@ -16,12 +17,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate snake (amber theme)
+      - name: Generate snake (BlackEye blue theme)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: BLACKEYE-ASTRO
           outputs: |
-            profile/snake-live.svg?color_snake=#FBBF24&color_dots=#161616,#3B2A0C,#7C4A0A,#D97706,#F59E0B
+            profile/snake-live.svg?color_snake=#60A5FA&color_dots=#161B22,#1E3A5F,#2563EB,#3B82F6,#93C5FD
 
       - name: Commit generated file
         uses: EndBug/add-and-commit@v9
