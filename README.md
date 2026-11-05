@@ -9,7 +9,8 @@
 <a href="mailto:akashshingare2003@gmail.com"><img src="./profile/btn-gmail.svg" alt="Gmail" height="48"/></a>&nbsp;
 <a href="https://www.instagram.com/__.akxsh_18/"><img src="./profile/btn-instagram.svg" alt="Instagram" height="48"/></a>
 
-<br/><br/>
+<br/>
+<br/>
 
 <img src="./profile/about.svg" alt="About Akash" width="100%"/>
 
@@ -19,11 +20,6 @@
 <img src="./profile/skills.svg" alt="Languages and tools" width="100%"/>
 
 <br/><br/>
-
-
-<img src="./profile/title-stats.svg" alt="My stats" width="100%"/>
-
-<br/>
 
 <img src="./profile/stats.svg" alt="GitHub stats" width="58%"/>
 <img src="./profile/top-langs.svg" alt="Top languages" width="39%"/>
