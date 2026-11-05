@@ -44,7 +44,7 @@
 
 <br/><br/>
 
-<img src="./profile/github-snake.svg" alt="Snake eating a contribution grid" width="100%"/>
+<img src="./profile/snake-live.svg" alt="Snake eating a contribution grid" width="100%"/>
 
 <!--
 Prefer your real contribution graph? Swap the line above for:
