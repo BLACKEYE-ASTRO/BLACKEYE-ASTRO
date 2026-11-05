@@ -34,7 +34,7 @@
     <!-- Animated language progress bars -->
     <g clip-path="url(#bar)">
       <!-- TypeScript -->
-      <rect x="30" y="68" width="88.2" height="10" fill="#3178C6">
+      <rect x="30" y="68" width="88.2" height="10" fill="#f59e0b">
         <animate attributeName="width" from="0" to="88.2" dur="0.9s" begin="0s" fill="freeze"/>
       </rect>
 
@@ -89,11 +89,4 @@
   <rect x="1" y="1" width="338" height="228" rx="17"
     stroke="#60A5FA" stroke-opacity=".35" fill="none"/>
 
-  <!-- Animated corner accents -->
-  <path d="M12 28V12H28M312 12H328V28M328 202V218H312M28 218H12V202"
-    stroke="#60A5FA" stroke-width="2" stroke-linecap="round"
-    stroke-opacity=".8" fill="none">
-    <animate attributeName="stroke-opacity"
-      values=".35;1;.35" dur="3s" repeatCount="indefinite"/>
-  </path>
 </svg>
