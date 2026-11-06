@@ -1,92 +1,36 @@
-
 <svg xmlns="http://www.w3.org/2000/svg" width="340" height="230" viewBox="0 0 340 230" fill="none" role="img" aria-label="Top languages">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#080808"/>
-      <stop offset="1" stop-color="#111827"/>
-    </linearGradient>
-
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080808"/><stop offset="1" stop-color="#19130D"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F59E0B"/><stop offset="1" stop-color="#D97706"/></linearGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
       <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity=".055" fill="none"/>
       <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="32 32" dur="6s" repeatCount="indefinite"/>
     </pattern>
-
-    <clipPath id="card">
-      <rect width="340" height="230" rx="18"/>
-    </clipPath>
-
-    <clipPath id="bar">
-      <rect x="30" y="68" width="280" height="10" rx="5"/>
-    </clipPath>
+    <clipPath id="card"><rect width="340" height="230" rx="18"/></clipPath>
   </defs>
-
   <g clip-path="url(#card)">
     <rect width="340" height="230" rx="18" fill="url(#bg)"/>
     <rect width="340" height="230" rx="18" fill="url(#grid)"/>
-
-    <text x="30" y="52" fill="#60A5FA"
-      font-family="'Fira Code', 'Cascadia Code', Consolas, monospace"
-      font-size="16" font-weight="700">&lt; TOP LANGUAGES /&gt;</text>
-
-    <!-- Progress bar background -->
-    <rect x="30" y="68" width="280" height="10" rx="5" fill="#252B38"/>
-
-    <!-- Animated language progress bars -->
-    <g clip-path="url(#bar)">
-      <!-- TypeScript -->
-      <rect x="30" y="68" width="88.2" height="10" fill="#3178C6">
-        <animate attributeName="width" from="0" to="88.2" dur="0.9s" begin="0s" fill="freeze"/>
-      </rect>
-
-      <!-- PHP -->
-      <rect x="118.2" y="68" width="81.1" height="10" fill="#777BB4">
-        <animate attributeName="width" from="0" to="81.1" dur="0.9s" begin="0.15s" fill="freeze"/>
-      </rect>
-
-      <!-- JavaScript -->
-      <rect x="199.3" y="68" width="73.8" height="10" fill="#F7DF1E">
-        <animate attributeName="width" from="0" to="73.8" dur="0.9s" begin="0.30s" fill="freeze"/>
-      </rect>
-
-      <!-- CSS -->
-      <rect x="273.1" y="68" width="29.7" height="10" fill="#264DE4">
-        <animate attributeName="width" from="0" to="29.7" dur="0.9s" begin="0.45s" fill="freeze"/>
-      </rect>
-
-      <!-- Hack -->
-      <rect x="302.8" y="68" width="5.8" height="10" fill="#00B8A9">
-        <animate attributeName="width" from="0" to="5.8" dur="0.9s" begin="0.60s" fill="freeze"/>
-      </rect>
-    </g>
-
-    <!-- TypeScript -->
-    <circle cx="36" cy="104" r="4.5" fill="#3178C6"/>
-    <text x="52" y="108" fill="#FFFFFF" font-family="'Fira Code', Consolas, monospace" font-size="13">TypeScript</text>
-    <text x="310" y="108" text-anchor="end" fill="#D1D5DB" font-family="'Fira Code', Consolas, monospace" font-size="13">31.5%</text>
-
-    <!-- PHP -->
-    <circle cx="36" cy="127" r="4.5" fill="#777BB4"/>
-    <text x="52" y="131" fill="#FFFFFF" font-family="'Fira Code', Consolas, monospace" font-size="13">PHP</text>
-    <text x="310" y="131" text-anchor="end" fill="#D1D5DB" font-family="'Fira Code', Consolas, monospace" font-size="13">29.0%</text>
-
-    <!-- JavaScript -->
-    <circle cx="36" cy="150" r="4.5" fill="#F7DF1E"/>
-    <text x="52" y="154" fill="#FFFFFF" font-family="'Fira Code', Consolas, monospace" font-size="13">JavaScript</text>
-    <text x="310" y="154" text-anchor="end" fill="#D1D5DB" font-family="'Fira Code', Consolas, monospace" font-size="13">26.4%</text>
-
-    <!-- CSS -->
-    <circle cx="36" cy="173" r="4.5" fill="#264DE4"/>
-    <text x="52" y="177" fill="#FFFFFF" font-family="'Fira Code', Consolas, monospace" font-size="13">CSS</text>
-    <text x="310" y="177" text-anchor="end" fill="#D1D5DB" font-family="'Fira Code', Consolas, monospace" font-size="13">10.6%</text>
-
-    <!-- Hack -->
-    <circle cx="36" cy="196" r="4.5" fill="#00B8A9"/>
-    <text x="52" y="200" fill="#FFFFFF" font-family="'Fira Code', Consolas, monospace" font-size="13">Hack</text>
-    <text x="310" y="200" text-anchor="end" fill="#D1D5DB" font-family="'Fira Code', Consolas, monospace" font-size="13">2.1%</text>
+    <text x="30" y="52" fill="#F59E0B" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="16" font-weight="700">&lt; TOP LANGUAGES /&gt;</text>
+    <clipPath id="bar"><rect x="30" y="68" width="280" height="10" rx="5"/></clipPath>
+    <rect x="30" y="68" width="280" height="10" rx="5" fill="#2A2014"/>
+    <g clip-path="url(#bar)"><rect x="30.0" y="68" width="89.0" height="10" fill="#F59E0B"><animate attributeName="width" from="0" to="89.0" dur="0.9s" begin="0.00s" fill="freeze"/></rect><rect x="119.0" y="68" width="80.7" height="10" fill="#FBBF24"><animate attributeName="width" from="0" to="80.7" dur="0.9s" begin="0.15s" fill="freeze"/></rect><rect x="199.7" y="68" width="73.5" height="10" fill="#D97706"><animate attributeName="width" from="0" to="73.5" dur="0.9s" begin="0.30s" fill="freeze"/></rect><rect x="273.2" y="68" width="29.7" height="10" fill="#FDE68A"><animate attributeName="width" from="0" to="29.7" dur="0.9s" begin="0.45s" fill="freeze"/></rect><rect x="302.9" y="68" width="5.8" height="10" fill="#B45309"><animate attributeName="width" from="0" to="5.8" dur="0.9s" begin="0.60s" fill="freeze"/></rect></g>
+    <circle cx="36" cy="104" r="4.5" fill="#F59E0B"/>
+    <text x="52" y="108" fill="#FFFFFF" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="13">TypeScript</text>
+    <text x="310" y="108" text-anchor="end" fill="#D1D1D1" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="13">31.8%</text>
+    <circle cx="36" cy="127" r="4.5" fill="#FBBF24"/>
+    <text x="52" y="131" fill="#FFFFFF" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="13">PHP</text>
+    <text x="310" y="131" text-anchor="end" fill="#D1D1D1" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="13">28.8%</text>
+    <circle cx="36" cy="150" r="4.5" fill="#D97706"/>
+    <text x="52" y="154" fill="#FFFFFF" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="13">JavaScript</text>
+    <text x="310" y="154" text-anchor="end" fill="#D1D1D1" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="13">26.3%</text>
+    <circle cx="36" cy="173" r="4.5" fill="#FDE68A"/>
+    <text x="52" y="177" fill="#FFFFFF" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="13">CSS</text>
+    <text x="310" y="177" text-anchor="end" fill="#D1D1D1" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="13">10.6%</text>
+    <circle cx="36" cy="196" r="4.5" fill="#B45309"/>
+    <text x="52" y="200" fill="#FFFFFF" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="13">Hack</text>
+    <text x="310" y="200" text-anchor="end" fill="#D1D1D1" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="13">2.1%</text>
   </g>
-
-  <!-- Border -->
-  <rect x="1" y="1" width="338" height="228" rx="17"
-    stroke="#60A5FA" stroke-opacity=".35" fill="none"/>
-
+  <rect x="1" y="1" width="338" height="228" rx="17" stroke="#D97706" stroke-opacity=".35" fill="none"/>
+  <path d="M12 28V12H28M312 12H328V28M328 202V218H312M28 218H12V202" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-opacity=".8" fill="none"><animate attributeName="stroke-opacity" values=".35;1;.35" dur="3s" repeatCount="indefinite"/></path>
 </svg>

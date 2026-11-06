@@ -1,61 +1,26 @@
-
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="190" viewBox="0 0 840 190" fill="none" role="img" aria-label="GitHub streak">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#080808"/>
-      <stop offset="1" stop-color="#111827"/>
-    </linearGradient>
-
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#93C5FD"/>
-      <stop offset="1" stop-color="#60A5FA"/>
-    </linearGradient>
-
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080808"/><stop offset="1" stop-color="#19130D"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F59E0B"/><stop offset="1" stop-color="#D97706"/></linearGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
       <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity=".055" fill="none"/>
       <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="32 32" dur="6s" repeatCount="indefinite"/>
     </pattern>
-
-    <clipPath id="card">
-      <rect width="840" height="190" rx="18"/>
-    </clipPath>
+    <clipPath id="card"><rect width="840" height="190" rx="18"/></clipPath>
   </defs>
-
   <g clip-path="url(#card)">
     <rect width="840" height="190" rx="18" fill="url(#bg)"/>
     <rect width="840" height="190" rx="18" fill="url(#grid)"/>
-
-    <line x1="280" y1="40" x2="280" y2="160" stroke="#60A5FA" stroke-opacity=".3"/>
-    <line x1="560" y1="40" x2="560" y2="160" stroke="#60A5FA" stroke-opacity=".3"/>
-
-    <!-- Total Contributions -->
-    <text x="140" y="92" text-anchor="middle" fill="#FFFFFF" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="34" font-weight="700">219</text>
-    <text x="140" y="146" text-anchor="middle" fill="#60A5FA" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14">Total Contributions</text>
-    <text x="140" y="166" text-anchor="middle" fill="#9CA3AF" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="12">Jan 1, 2022 - Present</text>
-
-    <!-- Current Streak -->
-    <circle cx="420" cy="78" r="44" stroke="#252B38" stroke-width="8" fill="none"/>
-
-    <circle cx="420" cy="78" r="44" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" fill="none" stroke-dasharray="276.5" stroke-dashoffset="207.3" transform="rotate(-90 420 78)">
-      <animate attributeName="stroke-dashoffset" from="276.5" to="207.3" dur="1.4s" fill="freeze"/>
-    </circle>
-
-    <text x="420" y="87" text-anchor="middle" fill="#FFFFFF" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="28" font-weight="700">1</text>
-
-    <text x="420" y="146" text-anchor="middle" fill="#60A5FA" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14">Current Streak</text>
-    <text x="420" y="166" text-anchor="middle" fill="#9CA3AF" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="12">Nov 5 - Nov 5</text>
-
-    <!-- Animated flame accent -->
-    <path d="M0 -13 C 6 -6 10 -2 8 5 C 6 11 -6 11 -8 5 C -10 -1 -4 -4 0 -13 Z" fill="#60A5FA" transform="translate(420 22)">
-      <animateTransform attributeName="transform" type="translate" values="420 22;420 20;420 22" dur="1.6s" repeatCount="indefinite"/>
-    </path>
-
-    <!-- Longest Streak -->
-    <text x="700" y="92" text-anchor="middle" fill="#FFFFFF" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="34" font-weight="700">4</text>
-    <text x="700" y="146" text-anchor="middle" fill="#60A5FA" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14">Longest Streak</text>
-    <text x="700" y="166" text-anchor="middle" fill="#9CA3AF" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="12">Jul 16, 2025 - Jul 19, 2025</text>
+    <line x1="280" y1="40" x2="280" y2="160" stroke="#D97706" stroke-opacity=".3"/>
+    <line x1="560" y1="40" x2="560" y2="160" stroke="#D97706" stroke-opacity=".3"/>
+    <text x="140" y="92" text-anchor="middle" fill="#FFFFFF" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="34" font-weight="700">235</text><text x="140" y="146" text-anchor="middle" fill="#F59E0B" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14">Total Contributions</text><text x="140" y="166" text-anchor="middle" fill="#888888" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="12">Jan 1, 2022 - Present</text>
+    <circle cx="420" cy="78" r="44" stroke="#2A2014" stroke-width="8" fill="none"/><circle cx="420" cy="78" r="44" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" fill="none" stroke-dasharray="276.5" stroke-dashoffset="138.2" transform="rotate(-90 420 78)"><animate attributeName="stroke-dashoffset" from="276.5" to="138.2" dur="1.4s" fill="freeze"/></circle>
+    <text x="420" y="87" text-anchor="middle" fill="#FFFFFF" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="28" font-weight="700">2</text>
+    <text x="420" y="146" text-anchor="middle" fill="#F59E0B" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14">Current Streak</text>
+    <text x="420" y="166" text-anchor="middle" fill="#888888" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="12">Nov 5 - Nov 6</text>
+    <path d="M0 -13 C 6 -6 10 -2 8 5 C 6 11 -6 11 -8 5 C -10 -1 -4 -4 0 -13 Z" fill="#F59E0B" transform="translate(420 22)"><animateTransform attributeName="transform" type="translate" values="420 22;420 20;420 22" dur="1.6s" repeatCount="indefinite"/></path>
+    <text x="700" y="92" text-anchor="middle" fill="#FFFFFF" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="34" font-weight="700">4</text><text x="700" y="146" text-anchor="middle" fill="#F59E0B" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="14">Longest Streak</text><text x="700" y="166" text-anchor="middle" fill="#888888" font-family="'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace" font-size="12">Jul 16, 2025 - Jul 19, 2025</text>
   </g>
-
-  <rect x="1" y="1" width="838" height="188" rx="17" stroke="#60A5FA" stroke-opacity=".35" fill="none"/>
-
+  <rect x="1" y="1" width="838" height="188" rx="17" stroke="#D97706" stroke-opacity=".35" fill="none"/>
+  <path d="M12 28V12H28M812 12H828V28M828 162V178H812M28 178H12V162" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-opacity=".8" fill="none"><animate attributeName="stroke-opacity" values=".35;1;.35" dur="3s" repeatCount="indefinite"/></path>
 </svg>
